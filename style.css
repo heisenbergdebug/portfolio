@@ -1,3 +1,26 @@
-body{
+.index{
     background-color: beige;
+}
+
+.contact{
+    background-color: lightblue;
+}
+
+.hobby{
+    background-color: rgb(220, 227, 213);
+}
+
+.music{
+    height: 300px;
+    width: 300px;
+}
+
+.movie{
+    height: 300px;
+    width: 300px;
+}
+
+.game{
+    height: 300px;
+    width: 300px;
 }
