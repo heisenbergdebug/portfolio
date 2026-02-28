@@ -3,7 +3,7 @@
 }
 
 .contact{
-    background-color: lightblue;
+    background-color: rgb(230, 203, 173);
 }
 
 .hobby{
@@ -11,16 +11,70 @@
 }
 
 .music{
+    display: inline-flex;
     height: 300px;
     width: 300px;
+    position: relative;
+    left: 160px;
+    padding-top: 40px;
 }
-
 .movie{
+    display: inline-flex;
     height: 300px;
     width: 300px;
+    position: relative;
+    left: 340px;
 }
 
-.game{
+.games{
+    display: inline-flex;
     height: 300px;
     width: 300px;
+    position: relative;
+    left: 440px;
+
+}
+
+.mail {
+    display: inline-flex;
+    position: relative;
+    right: 5px;
+    
+}
+
+.github {
+    display: inline-flex;
+    position: relative;
+    left: 5px;
+}
+
+.a_music {
+    display: inline-block;
+    position: relative;
+    top: 300px;
+    right: 170px;
+    text-decoration-color: black;
+
+}
+
+.a_movie {
+    display: inline-block;
+    position: relative;
+    top: 300px;
+    right: 130px;
+    text-decoration-color: black;
+
+}
+
+.a_games {
+    display: inline-block;
+    position: relative;
+    top: 300px;
+    right: 195px;
+    text-decoration-color: black;
+
+}
+
+.h{
+    text-decoration: underline;
 }
