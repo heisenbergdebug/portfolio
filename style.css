@@ -1,5 +1,26 @@
 .index{
     background-color: beige;
+    margin: 0px;
+    
+}
+
+
+h3 {
+    color: grey;
+}
+
+hr {
+    width: 100px;
+    border: dotted 2px grey;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
 }
 
 .contact{
@@ -10,30 +31,6 @@
     background-color: rgb(220, 227, 213);
 }
 
-.music{
-    display: inline-flex;
-    height: 300px;
-    width: 300px;
-    position: relative;
-    left: 160px;
-    padding-top: 40px;
-}
-.movie{
-    display: inline-flex;
-    height: 300px;
-    width: 300px;
-    position: relative;
-    left: 340px;
-}
-
-.games{
-    display: inline-flex;
-    height: 300px;
-    width: 300px;
-    position: relative;
-    left: 440px;
-
-}
 
 .mail {
     display: inline-flex;
@@ -48,33 +45,174 @@
     left: 5px;
 }
 
-.a_music {
-    display: inline-block;
-    position: relative;
-    top: 300px;
-    right: 170px;
-    text-decoration-color: black;
 
-}
-
-.a_movie {
-    display: inline-block;
-    position: relative;
-    top: 300px;
-    right: 130px;
-    text-decoration-color: black;
-
-}
-
-.a_games {
-    display: inline-block;
-    position: relative;
-    top: 300px;
-    right: 195px;
-    text-decoration-color: black;
-
-}
 
 .h{
-    text-decoration: underline;
+    font-family: sacremental, cursive;
+    font-size: 30px;
+}
+
+.info {
+    width: 50%;
+    margin: auto auto auto 380px;
+    text-align: center;
+    
+    
+}
+
+.insta {
+    height: 30px;
+    width: 30px;
+}
+
+.insta:hover {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(220, 227, 213);
+    border-radius: 10px;
+}
+
+.linkedin {
+    height: 30px;
+    width: 30px;
+    left: 65px;
+    bottom: 50px;
+}
+
+.linkedin:hover {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(236, 243, 185);
+    border-radius: 100%;
+}
+
+.git {
+    height: 30px;
+    width: 30px;
+    left: 130px;
+    bottom: 100px;
+}
+
+.git:hover {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(220, 227, 213);
+    border-radius: 10px;
+}
+
+.hob {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
+.music-image {
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+}
+
+.movie-image {
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.game-logo {
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+}
+
+.music {
+    display: inline-block;
+    line-height: 2;
+
+}
+
+.movie {
+    display: inline-block;
+    line-height: 2;
+    margin-top: 50px;
+
+}
+
+.games {
+    display: inline-block;
+    line-height: 2;
+    margin-top: 50px;
+}
+
+.name {
+    color: black;
+}
+
+.text {
+    color: black;
+}
+
+.home {
+    display: inline-flex;
+    position: relative;
+    text-align: center;
+    left: 640px;
+    background-color: rgb(238, 240, 124);
+    color:white;
+    border: 1px solid rgb(238, 240, 124);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.home:hover {
+    background-color: bisque;
+    color: beige;
+}
+
+.contact-2{
+    display: inline-flex;
+    position: relative;
+    text-align: center;
+    left: 660px;
+    background-color: rgb(238, 240, 124);
+    color:white;
+    border: 1px solid rgb(238, 240, 124);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contact-2:hover {
+    background-color: bisque;
+    color: beige;
+}
+
+.foot {
+    background-color: rgb(246, 230, 209);
+    padding: 20px 0;
+}
+
+.active {
+    background-color: rgb(238, 240, 124);
+    color:white;
+    border: 1px ;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.active:hover {
+    background-color: bisque;
+    color: beige;
+}
+
+.nav {
+    background-color: rgb(220, 229, 200);
+    padding: 40px 0;
 }
